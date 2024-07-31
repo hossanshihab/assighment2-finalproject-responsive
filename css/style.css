@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body{
   font-family: "Inter", sans-serif;
   background-color: black;
@@ -13,6 +14,12 @@ body{
   color: white;
   font-size: 3rem;
   font-weight: 800;
+ }
+ .shape{
+  font-size: 7rem;
+  font-family: "Italianno", cursive;
+  font-weight: 500;
+  font-style: normal;
  }
  h4{
   color: white;
@@ -77,6 +84,10 @@ body{
  }
  .ham-burger{
   display: none;
+ }
+ .font-style{
+  font-style: italic;
+  font-family: "Italianno";
  }
  /* navbar section ends here  */
 
