@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+  font-family: "Inter", sans-serif;
+  background-color: black;
+ }
+ /* default styles start  */
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+ }
+ h4{
+  color: white;
+  margin-top: 10px;
+  font-size: 1.5rem;
+ }
+ h1{
+  color: white;
+  font-size: 4rem;
+ }
+ p{
+  color: white;
+  font-size: 1rem;
+  font-weight: 400px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  opacity: 50%;
+  margin-top: 14px;
+ }
+ /* default styles end  */
+
+
+ /* navbar style start here  */
+ .navbar-title{
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+  font-style: italic;
+ }
+ .navbar-main{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: red;
+  font-weight: bold;
+ }
+ .nav-options a{
+  margin-right: 50px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+ }
+ .home-background{
+  background-color: rgb(230, 83, 60);
+  padding: 10px 30px;
+  border-radius: 46px;
+ }
+ .nav-options{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 500px;
+  height: 50px;
+  border-radius: 46px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .ham-burger{
+  display: none;
+ }
+ /* navbar section ends here  */
+
+ /* banner section starts here  */
+.main-content{
+  /* border: 2px solid green; */
+  max-width: 1300px;
+  margin: 0 auto;
+ 
+}
+.banner-main{
+  display: flex;
+  gap: 130px;
+}
+.banner-wrapper{
+  background-color:rgba(119, 119, 119, 0.118) ;
+}
+
+.banner-title{
+  font-size:5rem ;
+  font-weight: 900px;
+}
+.banner-childs{
+  /* border: 2px solid white; */
+  width: 45%;
+  text-align: left;
+}
+.banner-childs img{
+  /* border: 2px solid white; */
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+.banner-childs h1{
+margin-top: 150px;
+}
+.btn-primary-1{
+  padding: 15px 60px;
+  border-radius: 42px;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-top: 30px;
+
+}
+.btn-primary-2{
+  padding: 15px 60px;
+  border-radius: 42px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border: 2px solid white;
+  margin-top: 20px;
+}
+.nav-wrapper{
+  background-color:rgba(119, 119, 119, 0.203);
+}
+
+.card-1{
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  width: 220px;
+  height: 150px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  padding: 25px 15px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  
+}
+.card-2{
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.029);
+  width: 270px;
+  height: 150px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+  position: absolute;
+  top: 95%;
+  left: 55%;
+}
+.card-2 p{
+  margin-left: 70px;
+}
+.hide{
+  display: none;
+}
+
+.main-container{
+  /* border: 2px solid red; */
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+}
+/* habit start here  */
+
+.habit-img-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 60px;
+}
+.habit-img-container img{
+ border-radius: 50%;
+ 
+}
+/* habit section end  */
+.extra-mile-main{
+  /* position: static; */
+  display: flex;
+  background-color: rgb(34, 34, 34);
+  padding: 40px;
+  border-radius: 13px;
+  margin-top: 100px;
+  gap: 130px;
+
+}
+.extra-childs{
+  text-align: left;
+  /* border: 2px solid green; */
+  width: 45%;
+}
+.extra-childs h2{
+  margin-top: 40px;
+}
+.extra-childs img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+/* habit section ends here  */
+
+/* bmi calculetor starts here  */
+.bmi-calculetor-main{
+  /* border: 2px solid green; */
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 70px;
+  min-height: 500px;
+}
+.bmi-calculetor-background{
+  background-color: rgb(34, 34, 34);
+}
+.bmi-calculetor-main{
+  display: flex;
+  gap: 150px;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+.table-parent h5{
+ color: white;
+}
+.bmi-childs{
+  text-align: left;
+  margin-top: 40px;
+  /* border: 2px solid palevioletred; */
+  width: 45%;
+  min-height: 300px;
+}
+td,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+}
+td{
+  opacity: 60%;
+}
+.bmi-inputs{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 30px;
+  
+}
+.bmi-inputs,input,select{
+  width: 282.5px;
+  height: 48px;
+  position: static;
+}
+input,select{
+  padding: 12px 40px 12px 20px;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+}
+.btn-primary-3{
+  padding: 15px 60px;
+  border-radius: 42px;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  border: none;
+  font-weight: bold;
+
+}
+/* bmi-section end  */
+
+/* team section starts here  */
+.main-team{
+  /* border: 2px solid palevioletred; */
+  max-width: 1300px;
+  margin: 0 auto;
+  min-height: 500px;
+  margin-top: 30px;
+  text-align: center;
+}
+.img-1{
+  position: relative;
+}
+.img-1 img{
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+ 
+}
+.img-text-1{
+  position: absolute;
+}
+.trainer-container-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* border: 2px solid green; */
+  margin-top: 20px;
+  border-radius: 18px;
+}
+.img-text{
+  text-align: left;
+  position: absolute;
+  top: 79%;
+  left: 5%;
+}
+/* team section end  */
+
+
+/* footer section starts here  */
+
+.footer-background{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-main{
+  /* border: 2px solid palevioletred; */
+  max-width: 1300px;
+  margin: 0rem auto;
+  margin-top: 70px;
+  text-align: left;
+  padding-top: 60px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title{
+  font-size: 4rem;
+  font-style: italic;
+  color: rgb(230, 83, 60);
+}
+/* footer section ends here  */
+
+
+
+
+
+  
